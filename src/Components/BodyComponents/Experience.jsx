@@ -17,7 +17,7 @@ import "../../index.css"
 import {RenderSectionHeading} from "../common/commonComponent";
 import { Theme } from "../Theme";
 import ScrollAnimation from "react-animate-on-scroll";
-
+// import GitHubCalendar from 'react-github-calendar';
 
 const Experience = () => {
  
@@ -74,6 +74,9 @@ const Experience = () => {
               <img src={github} alt="git" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>Github</p>
             </Box>
+          </Box>
+          <Box>
+            {/* <GitHubCalendar username="amansingh456" /> */}
           </Box>
         </ScrollAnimation>
       </Box>

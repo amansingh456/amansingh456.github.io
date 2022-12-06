@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Hidden, Tooltip, Link } from "@material-ui/core";
-import React, { useState } from "react";
+import React from "react";
 import { useStyles } from "./BodyStyles";
 import image from "../../images/contactus.jpg";
 import { RenderSectionHeading } from "../common/commonComponent";
@@ -42,9 +42,11 @@ export default function Contact() {
                 <Link href="https://github.com/amansingh456" target="_blank">
                   <GitHubIcon style={{marginRight:"10px" , color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>
                 </Link>
-                <Tooltip title="amansinghrajawat690@gmail.com">
-                  <AlternateEmailIcon style={{marginRight:"10px", color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>
-                </Tooltip>
+                <Link href="mailto: amansinghrajawat690@gmail.com">
+                  <Tooltip title="amansinghrajawat690@gmail.com">
+                    <AlternateEmailIcon style={{marginRight:"10px", color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>
+                  </Tooltip>
+                </Link>
                 <Link href="tel: +917477215550">
                   <Tooltip title="+91 7477215550">
                     <PermPhoneMsgIcon style={{color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>

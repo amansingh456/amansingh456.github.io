@@ -1,4 +1,4 @@
-import { Avatar, Box, Grid, Typography, Link } from "@material-ui/core";
+import { Avatar, Box, Grid, Typography} from "@material-ui/core";
 import { useStyles } from "../HeadersComponents/HeaderStyles";
 import { useStyles as BodyStyles } from "../BodyComponents/BodyStyles";
 import PDF from "../../images/Aman-Singh-Rajawat-Resume.pdf"

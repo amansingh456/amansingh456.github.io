@@ -70,7 +70,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   overlayTitle: {
     fontSize: "2rem",
-    marginBottom: "16px",
+    marginBottom: "6px",
     [theme.breakpoints.down("xs")]: {
       fontSize: "1.2rem",
     },

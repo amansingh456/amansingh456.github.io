@@ -3,7 +3,7 @@ import React from "react";
 import { useStyles } from "./BodyStyles";
 import image from "../../images/About.jpg";
 import { RenderSectionHeading, CardMedia } from "../common/commonComponent";
-import AcUnitIcon from "@material-ui/icons/AcUnit";
+// import AcUnitIcon from "@material-ui/icons/AcUnit";
 import PermDeviceInformationIcon from "@material-ui/icons/PermDeviceInformation";
 import ToysIcon from "@material-ui/icons/Toys";
 import DashboardIcon from "@material-ui/icons/Dashboard";

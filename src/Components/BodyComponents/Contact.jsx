@@ -14,7 +14,7 @@ export default function Contact() {
   
 
   return (
-    <Box className={classes.section} id='Contact'>
+    <Box className={classes.sectionDark} id='Contact'>
       <ScrollAnimation animateIn='fadeIn'>
         <Container maxWidth='xl'>
           <Grid container spacing={1}>

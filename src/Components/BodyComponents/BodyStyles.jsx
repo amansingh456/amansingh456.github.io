@@ -92,7 +92,7 @@ export const useStyles = makeStyles((theme) => ({
 
   // footer stylr
   footerContainer: {
-    backgroundColor: Theme.colors.primary1,
+    backgroundColor: Theme.colors.base1,
     color: Theme.colors.base2,
     padding: theme.spacing(2),
     position: "relative",

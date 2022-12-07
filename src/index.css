@@ -38,7 +38,7 @@ code {
 }
 
 .techStacks>img{
-  width: 100px;
+  width: 65px;
   transition: all .3s ease-in-out;
 }
 
@@ -64,7 +64,7 @@ code {
 
 @media screen and (min-width:320px) and (max-width:400px){
   .techStacks>img{
-    width: 80px;
+    width: 60px;
   }
 }
 

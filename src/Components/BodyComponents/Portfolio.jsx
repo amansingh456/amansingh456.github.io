@@ -18,12 +18,12 @@ export default function Portfolio() {
   const classes = useStyles();
 
   const portfolioData = [
-    { url: image2, title: "# Cozy Movie App ",  about: "Simple Movie Website, user can seacrh movie and do Sorting and filteration also",techs:"JavaScript | HTML | CSS", link1: "https://cozy-movie-app.netlify.app", link2:"https://github.com/amansingh456/eminent-art-8078" },
+    { url: image2, title: "# Cozy Movie App ",  about: "Simple Movie Website, user can seacrh movie and do Sorting and filteration also",techs:"JavaScript | HTML | CSS", link1: "https://cozy-movie-app.netlify.app", link2:"https://github.com/amansingh456/Cozy-Movie-App" },
     { url: image1, title: "# Med-X Drug ", about: "Med-x Drug is an e-commerce pharma website, user can buy all health related product",techs:"React | Redux | JavaScript", link1: "https://med-x-drug.netlify.app", link2:"https://github.com/amansingh456/eminent-art-8078"},
-    { url: image4, title: "# Basic Music App ",  about: "A Simple Music Web-App where user can listen some music, can also do some functionality like Play, Pause, Next & Previous ",techs:"JavaScript | HTML | CSS", link1: "https://real-music-app.netlify.app", link2:"https://github.com/amansingh456/personalGitFiles/tree/main/Self/JS-projects/music_player" },
+    { url: image4, title: "# Basic Music App ",  about: "A Simple Music Web-App where user can listen some music, can also do some functionality like Play, Pause, Next & Previous ",techs:"JavaScript | HTML | CSS", link1: "https://real-music-app.netlify.app", link2:"https://github.com/amansingh456/Simple-Music" },
     { url: image3, title: "# Basic Todo App ",  about: "Basic Todo Web-App, user can feel a good touch of Todo App and a good UI ",techs:"React | JavaScript | CSS | HTML", link1: "https://react-cozy-keep.netlify.app", link2:"https://github.com/amansingh456/cozy-kepp-react-todo" },
     { url: image5, title: "# Dot & Key Clone ",  about: "Am E-commerce website cloned of Dot & Key, where user can but all skin related products",techs:"HTML | CSS | JavaScript", link1: "https://dot-and-key-ecommerce.netlify.app", link2:"https://github.com/amansingh456/radioactive-geese-7505" },
-    { url: image6, title: "# Restaurent Template ",  about: "A Template of Restaurent website, where user can take a look how restaurent website looks",techs:"HTML | CSS", link1: "https://resto-template.netlify.app", link2:"https://github.com/amansingh456/personalGitFiles/tree/main/Self/CssProjects/Food" },
+    { url: image6, title: "# Restaurent Template ",  about: "A Template of Restaurent website, where user can take a look how restaurent website looks",techs:"HTML | CSS", link1: "https://resto-template.netlify.app", link2:"https://github.com/amansingh456/Restaurant-Template" },
   ];
 
   return (

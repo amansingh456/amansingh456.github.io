@@ -32,12 +32,26 @@ code {
 
 
 
+
 .techStacks{
   border-radius: 10px;
 }
 
 .techStacks>img{
   width: 100px;
+  transition: all .3s ease-in-out;
+}
+
+.techStacks>img:hover{
+  transform: scale(1.1);
+}
+
+
+#upx{
+  transition: all .8s ease-in-out;
+}
+#upx:hover{
+  transform: scale(1.1);
 }
 
 

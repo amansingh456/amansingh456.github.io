@@ -75,9 +75,9 @@ export const useStyles = makeStyles((theme) => ({
   arrow: {
     lineHeight: " 50px",
     position: " absolute",
-    left: "95px",
+    left: "100px",
     animationName: "upDown",
-    animationDuration: "0.7s",
+    animationDuration: "1.5s",
     animationIterationCount: "infinite",
   },
 

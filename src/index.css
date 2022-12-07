@@ -84,6 +84,9 @@ code {
 .js{
   box-shadow: rgb(254, 213, 0) 0px 3px 8px;
 }
+.ts{
+  box-shadow: rgb(0, 122, 203) 0px 3px 8px;
+}
 .react{
   box-shadow: rgb(0, 215, 254) 0px 3px 8px;
 }
@@ -105,11 +108,18 @@ code {
 .ex{
   box-shadow: rgb(129, 129, 129) 0px 3px 8px;
 }
-.git{
-  box-shadow: rgb(237, 237, 237) 0px 3px 8px;
+.cy{
+  box-shadow: rgb(255, 255, 255) 0px 3px 8px;
 }
-
-
+.git{
+  box-shadow: rgb(255, 255, 255) 0px 3px 8px;
+}
+.notion{
+  box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+}
+.vs{
+  box-shadow: rgb(31, 155, 239) 0px 3px 8px;
+}
 
 
 

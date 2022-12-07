@@ -10,9 +10,11 @@ import chakra from "../../images/chakraui.png"
 import node from "../../images/node.png"
 import express from "../../images/express.png"
 import mongo from "../../images/mongodb.png"
-
+import TS from "../../images/typescript_original_logo_icon_146317.png"
 import github from "../../images/github.png";
-
+import cy from "../../images/cypress.png"
+import notion from "../../images/notion-icon.png"
+import vs from "../../images/visual-studio-code-icon.png"
 import "../../index.css"
 import {RenderSectionHeading} from "../common/commonComponent";
 import { Theme } from "../Theme";
@@ -45,6 +47,10 @@ const Experience = () => {
               <img src={javascript} alt="js" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>JavaScript</p>
             </Box>
+            <Box className="techStacks ts" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+              <img src={TS} alt="ts" style={{paddingTop:"20px"}} />
+              <p style={{color:"#ffffff"}}>TypeScript</p>
+            </Box>
             <Box className="techStacks react" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
               <img src={reactImage} alt="React" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>React</p>
@@ -53,26 +59,41 @@ const Experience = () => {
               <img src={redux} alt="redux" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>Redux</p>
             </Box>
-            <Box className="techStacks mui" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
-              <img src={mui} alt="mui" style={{paddingTop:"20px"}} />
-              <p style={{color:"#ffffff"}}>Material UI</p>
-            </Box> 
             <Box className="techStacks chakra" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
               <img src={chakra} alt="cui" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>Chakra UI</p>
             </Box>
+            <Box className="techStacks mui" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+              <img src={mui} alt="mui" style={{paddingTop:"20px"}} />
+              <p style={{color:"#ffffff"}}>Material UI</p>
+            </Box> 
             <Box className="techStacks node" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
               <img src={node} alt="ndoe" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>Node</p>
-            </Box><Box className="techStacks ex" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+            </Box>
+            <Box className="techStacks ex" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
               <img src={express} alt="ex" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>Express</p>
-            </Box><Box className="techStacks mongo" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+            </Box>
+            <Box className="techStacks mongo" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
               <img src={mongo} alt="mongo" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>MongoDB</p>
-            </Box><Box className="techStacks git" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+            </Box>
+            <Box className="techStacks cy" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+              <img src={cy} alt="cy" style={{paddingTop:"20px"}} />
+              <p style={{color:"#ffffff"}}>Cypress</p>
+            </Box>
+            <Box className="techStacks git" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
               <img src={github} alt="git" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>Github</p>
+            </Box>
+            <Box className="techStacks notion" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+              <img src={notion} alt="notion" style={{paddingTop:"20px"}} />
+              <p style={{color:"#ffffff"}}>Notion</p>
+            </Box>
+            <Box className="techStacks vs" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+              <img src={vs} alt="vs" style={{paddingTop:"20px"}} />
+              <p style={{color:"#ffffff"}}>VS Code</p>
             </Box>
           </Box>
           <Box>

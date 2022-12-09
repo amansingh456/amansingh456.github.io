@@ -5,7 +5,7 @@ import {
   Hidden,
   IconButton,
   Toolbar,
-  Typography,
+  Typography
 } from "@material-ui/core";
 import React from "react";
 import { useStyles } from "./HeaderStyles";
@@ -22,9 +22,11 @@ export default function Navbar({ navlinks, handleDrawerToogler }) {
       <Toolbar
         className={classes.ToolBar}
         style={{ backgroundColor: Theme.colors.base1 }}>
-        <Typography variant='h5' component='h6' className="Logo">
-          {"Aman"}
-        </Typography>
+        <a href="/" style={{color:"#ffffff", textDecoration:"none"}}>
+          <Typography variant='h5' component='h6' className="Logo">
+            {"Aman"}
+          </Typography>
+        </a>
 
         {/* navlinks  */}
         <Box component={Hidden} xsDown>

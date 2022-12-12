@@ -30,7 +30,7 @@ export default function HeadersComponent() {
         handleDrawerToogler={handleDrawerToogler}
       />
 
-      <Box className={classes.Headercontaier}>
+      <Box className={classes.Headercontaier} id="mainX">
         <Typography varinat='h3' component='h4' className={classes.headerTitle}>
           I'm a <span style={{ paddingRight: "5px" }}></span>
           <Typed

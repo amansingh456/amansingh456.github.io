@@ -13,12 +13,14 @@ import mongo from "../../images/mongodb.png"
 import TS from "../../images/typescript_original_logo_icon_146317.png"
 import github from "../../images/github.png";
 import cy from "../../images/cypress.png"
+import npm from "../../images/npm-logo-red.png"
 import notion from "../../images/notion-icon.png"
 import vs from "../../images/visual-studio-code-icon.png"
 import "../../index.css"
 import {RenderSectionHeading} from "../common/commonComponent";
 import { Theme } from "../Theme";
 import ScrollAnimation from "react-animate-on-scroll";
+
 // import GitHubCalendar from 'react-github-calendar';
 
 const Experience = () => {
@@ -83,6 +85,10 @@ const Experience = () => {
               <img src={cy} alt="cy" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>Cypress</p>
             </Box>
+            <Box className="techStacks npm" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+              <img src={npm} alt="npm" style={{paddingTop:"20px"}} />
+              <p style={{color:"#ffffff"}}>NPM</p>
+            </Box>
             <Box className="techStacks git" id="upx" style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
               <img src={github} alt="git" style={{paddingTop:"20px"}} />
               <p style={{color:"#ffffff"}}>Github</p>
@@ -96,9 +102,7 @@ const Experience = () => {
               <p style={{color:"#ffffff"}}>VS Code</p>
             </Box>
           </Box>
-          <Box>
-            {/* <GitHubCalendar username="amansingh456" /> */}
-          </Box>
+         
         </ScrollAnimation>
       </Box>
     </>

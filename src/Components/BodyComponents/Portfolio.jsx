@@ -62,7 +62,7 @@ export default function Portfolio() {
                     </Typography>
                    <span className="smallSizeHidden">
                       <p style={{marginLeft:"10px", marginRight:"10px" }}>{item.about}</p>
-                      <p style={{marginLeft:"10px", marginBottom:"30px"}}><span style={{fontSize:"18px"}}>Tech Stack Used:</span> <span style={{fontWeight:"600",color:"#2e2d2e"}}>{item.techs}</span></p>
+                      <p style={{marginLeft:"10px", marginBottom:"30px"}}><span style={{fontSize:"18px"}}>Tech Stack Used:</span> <span style={{fontWeight:"600",color:"#e3a408"}}>{item.techs}</span></p>
                    </span>
                     <Box style={{display:"flex", justifyContent:"space-between", width:"90%"}}>
                       <Link href={item.link1} target="_blank">

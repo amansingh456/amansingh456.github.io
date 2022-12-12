@@ -45,7 +45,9 @@ export default function Navbar({ navlinks, handleDrawerToogler }) {
                 color='inherit'>
                 {item.label}
               </Button>
+              
             ))}
+            <a href="https://drive.google.com/file/d/137MhCg2X815aTp-SMZnNuXC8uBbxLcyk/view?usp=sharing" rel="noreferrer"  target="_blank" style={{color:"#ffffff", textDecoration:"none", marginLeft:"5px"}}>RESUME</a>
           </Box>
         </Box>
         <Box component={Hidden} smUp>

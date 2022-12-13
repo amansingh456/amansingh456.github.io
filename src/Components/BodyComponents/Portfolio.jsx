@@ -18,12 +18,12 @@ export default function Portfolio() {
   const classes = useStyles();
 
   const portfolioData = [
-    { url: image2, title: "# Cozy Movie App ",  about: "Simple Movie Website, user can seacrh movie and do Sorting and filteration also",techs:"JavaScript | HTML | CSS", link1: "https://cozy-movie-app.netlify.app", link2:"https://github.com/amansingh456/Cozy-Movie-App" },
-    { url: image1, title: "# Med-X Drug ", about: "Med-x Drug is an e-commerce pharma website, user can buy all health related product",techs:"React | Redux | JavaScript", link1: "https://med-x-drug.netlify.app", link2:"https://github.com/amansingh456/eminent-art-8078"},
-    { url: image4, title: "# Basic Music App ",  about: "A Simple Music Web-App where user can listen some music, can also do some functionality like Play, Pause, Next & Previous ",techs:"JavaScript | HTML | CSS", link1: "https://real-music-app.netlify.app", link2:"https://github.com/amansingh456/Simple-Music" },
-    { url: image3, title: "# Basic Todo App ",  about: "Basic Todo Web-App, user can feel a good touch of Todo App and a good UI ",techs:"React | JavaScript | CSS | HTML", link1: "https://react-cozy-keep.netlify.app", link2:"https://github.com/amansingh456/cozy-kepp-react-todo" },
-    { url: image5, title: "# Dot & Key Clone ",  about: "Am E-commerce website cloned of Dot & Key, where user can but all skin related products",techs:"HTML | CSS | JavaScript", link1: "https://dot-and-key-ecommerce.netlify.app", link2:"https://github.com/amansingh456/radioactive-geese-7505" },
-    { url: image6, title: "# Restaurent Template ",  about: "A Template of Restaurent website, where user can take a look how restaurent website looks",techs:"HTML | CSS", link1: "https://resto-template.netlify.app", link2:"https://github.com/amansingh456/Restaurant-Template" },
+    { url: image2, title: "# Cozy Movie App ",  about: "Simple Movie Website, user can seacrh movie and do Sorting and filteration also",techs:"JavaScript | HTML | CSS", link1: "https://cozy-movie-app.netlify.app", link2:"https://github.com/amansingh456/Cozy-Movie-App", id:"movie" },
+    { url: image1, title: "# Med-X Drug ", about: "Med-x Drug is an e-commerce pharma website, user can buy all health related product",techs:"React | Redux | JavaScript", link1: "https://med-x-drug.netlify.app", link2:"https://github.com/amansingh456/eminent-art-8078", id:"drug"},
+    { url: image4, title: "# Basic Music App ",  about: "A Simple Music Web-App where user can listen some music, can also do some functionality like Play, Pause, Next & Previous ",techs:"JavaScript | HTML | CSS", link1: "https://real-music-app.netlify.app", link2:"https://github.com/amansingh456/Simple-Music", id:"music" },
+    { url: image3, title: "# Basic Todo App ",  about: "Basic Todo Web-App, user can feel a good touch of Todo App and a good UI ",techs:"React | JavaScript | CSS | HTML", link1: "https://react-cozy-keep.netlify.app", link2:"https://github.com/amansingh456/cozy-kepp-react-todo", id:"keep" },
+    { url: image5, title: "# Dot & Key Clone ",  about: "Am E-commerce website cloned of Dot & Key, where user can but all skin related products",techs:"HTML | CSS | JavaScript", link1: "https://dot-and-key-ecommerce.netlify.app", link2:"https://github.com/amansingh456/radioactive-geese-7505", id:"dot"  },
+    { url: image6, title: "# Restaurent Template ",  about: "A Template of Restaurent website, where user can take a look how restaurent website looks",techs:"HTML | CSS", link1: "https://resto-template.netlify.app", link2:"https://github.com/amansingh456/Restaurant-Template", id:"restro" },
   ];
 
   return (
@@ -32,14 +32,14 @@ export default function Portfolio() {
         <Grid
           container
           style={{
-            displa: "flex",
+            display: "flex",
             justifyContent: "center",
             alignContent: "center",
           }}>
           <Grid item xs={12} sm={8}>
             {RenderSectionHeading({
-              smallText: "Portfolio",
-              heading: "Let's See My Work",
+              smallText: "Projects",
+              heading: "",
               alignCenter: true,
             })}
           </Grid>
@@ -49,8 +49,8 @@ export default function Portfolio() {
         <Container maxWidth='xl'>
           <Grid container spacing={2}>
             {portfolioData.map((item, i) => (
-              <Grid item xs={6} sm={6} lg={4} key={i}>
-                <Box className={classes.imageContainer}>
+              <Grid item xs={6} sm={6} lg={4} key={i} >
+                <Box className={classes.imageContainer} id={item.id}>
                   <img
                     src={item.url}
                     alt={item.title}
@@ -64,7 +64,7 @@ export default function Portfolio() {
                       <p style={{marginLeft:"10px", marginRight:"10px" }}>{item.about}</p>
                       <p style={{marginLeft:"10px", marginBottom:"30px"}}><span style={{fontSize:"18px"}}>Tech Stack Used:</span> <span style={{fontWeight:"600",color:"#e3a408"}}>{item.techs}</span></p>
                    </span>
-                    <Box style={{display:"flex", justifyContent:"space-between", width:"90%"}}>
+                    <Box style={{display:"flex", justifyContent:"space-between", width:"95%", paddingBottom:"10px"}}>
                       <Link href={item.link1} target="_blank">
                         <Button variant='contained'><LanguageIcon/></Button>
                       </Link>

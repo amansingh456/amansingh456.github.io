@@ -16,9 +16,9 @@ export default function Contact() {
   return (
     <Box className={classes.sectionDark} id='Contact'>
       <ScrollAnimation animateIn='fadeIn'>
-        <Container maxWidth='xl'>
-          <Grid container spacing={1}>
-            <Grid item sm={5}>
+        <Container maxWidth='xl' id="Contact-Container">
+          <Grid container spacing={1} id="full-contact">
+            <Grid item sm={5} id="Image-Contact">
               <Box component={Hidden} xsDown>
                 <img
                   src={image}
@@ -30,11 +30,17 @@ export default function Contact() {
             <Grid item xs={12} sm={7}>
               {RenderSectionHeading({
                 smallText: " Contact Me",
-                heading: "Seems To be Interesting",
+                heading: "",
                 description:
                   "Got my Portfolio seen , than feel free to contact me for your future projects",
               })}
               <br />
+              <Box style={{color:"#ffffff", marginLeft:"8px", marginBottom:"5px"}}>
+                +91 7477215550
+              </Box>
+              <Box style={{color:"#ffffff", marginLeft:"10px", marginBottom:"35px"}}>
+                amansinghrajawat690@gmail.com
+              </Box>
               <Box style={{marginLeft:"10px"}}>
                 <Link href="https://www.linkedin.com/in/aman690/" target="_blank">
                   <LinkedInIcon style={{marginRight:"10px" , color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>

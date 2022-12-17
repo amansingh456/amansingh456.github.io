@@ -43,19 +43,19 @@ export default function Contact() {
               </Box>
               <Box style={{marginLeft:"10px"}}>
                 <Link href="https://www.linkedin.com/in/aman690/" target="_blank">
-                  <LinkedInIcon style={{marginRight:"10px" , color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>
+                  <LinkedInIcon style={{marginRight:"10px" , color:"#fff", backgroundColor:"#fe9401", padding:"8px", borderRadius:"20px"}}/>
                 </Link>
                 <Link href="https://github.com/amansingh456" target="_blank">
-                  <GitHubIcon style={{marginRight:"10px" , color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>
+                  <GitHubIcon style={{marginRight:"10px" , color:"#fff", backgroundColor:"#fe9401", padding:"8px", borderRadius:"20px"}}/>
                 </Link>
                 <Link href="mailto: amansinghrajawat690@gmail.com">
                   <Tooltip title="amansinghrajawat690@gmail.com">
-                    <AlternateEmailIcon style={{marginRight:"10px", color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>
+                    <AlternateEmailIcon style={{marginRight:"10px", color:"#fff", backgroundColor:"#fe9401", padding:"8px", borderRadius:"20px"}}/>
                   </Tooltip>
                 </Link>
                 <Link href="tel: +917477215550">
                   <Tooltip title="+91 7477215550">
-                    <PermPhoneMsgIcon style={{color:"#fff", backgroundColor:"#e3a408", padding:"8px", borderRadius:"20px"}}/>
+                    <PermPhoneMsgIcon style={{color:"#fff", backgroundColor:"#fe9401", padding:"8px", borderRadius:"20px"}}/>
                   </Tooltip>
                 </Link>
               </Box>

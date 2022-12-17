@@ -9562,6 +9562,11 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
+"react-responsive-calendar@^0.6.0":
+  "integrity" "sha512-yPVtIn1r2ux2kqhD59oHFAMrBdZgn4hFPvUX+DFKdHK5VQqxtx0OKCPLmuMxEB3ZWQleesnmvPNZRn37KtJsBQ=="
+  "resolved" "https://registry.npmjs.org/react-responsive-calendar/-/react-responsive-calendar-0.6.0.tgz"
+  "version" "0.6.0"
+
 "react-scripts@4.0.3":
   "integrity" "sha512-S5eO4vjUzUisvkIPB7jVsKtuH2HhWcASREYWHAQ1FP5HyCv3xgn+wpILAEWkmy+A+tTNbSZClhxjT3qz6g4L1A=="
   "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-4.0.3.tgz"
@@ -9661,7 +9666,7 @@
     "prop-types" "^15.6.0"
     "typed.js" "^2.0.6"
 
-"react@*", "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.3.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.1", "react@^17.0.2", "react@>= 15.4.1 < 17.0.0-0", "react@>= 16", "react@>=16.6.0", "react@17.0.2":
+"react@*", "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.3.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.1", "react@^17.0.2", "react@>= 15.4.1 < 17.0.0-0", "react@>= 16", "react@>= 16.x", "react@>=16.6.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

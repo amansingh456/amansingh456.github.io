@@ -19,7 +19,7 @@ export const Decorator = ({ label, withIcon, Icon, styles }) => {
 
       {withIcon ? (
         <a href={PDF} download="Aman-Singh-Rajawat.pdf">
-          <Typography component='span' className={classes.arrow} style={{ color: "#e2a308" }} >
+          <Typography component='span' className={classes.arrow} style={{ color: "#fe9401" }} >
             {Icon}
           </Typography>
         </a>

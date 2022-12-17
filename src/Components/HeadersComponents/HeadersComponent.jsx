@@ -17,7 +17,7 @@ export default function HeadersComponent() {
 
   const navlinks = [
     { label: "About", Id: "About" },
-    { label: "Portfolio", Id: "Portfolio" },
+    { label: "Projects", Id: "Portfolio" },
     { label: "Contact", Id: "Contact" },
   ];
 
@@ -34,7 +34,7 @@ export default function HeadersComponent() {
         <Typography varinat='h3' component='h4' className={classes.headerTitle}>
           I'm a <span style={{ paddingRight: "5px" }}></span>
           <Typed
-            style={{color:"#e2a308"}}
+            style={{color:"#fe9401"}}
             strings={[" Web - Developer"]}
             typeSpeed={100}
             backSpeed={100}

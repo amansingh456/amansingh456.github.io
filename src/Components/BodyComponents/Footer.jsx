@@ -23,7 +23,7 @@ export default function Footer() {
       </IconButton>
       <Typography variant='body1' component='h4' align='center' color='inherit'>
         Developed  by 
-        <span style={{color:"#e2a308"}}> Aman Singh Rajawat</span> with <FavoriteIcon style={{ color: "#e2a308" }} /><span>, All Right Reserved © {date.getFullYear()}</span>
+        <span style={{color:"#fe9401"}}><b><i> Aman Singh Rajawat  </i></b></span>  with <FavoriteIcon style={{ color: "#fe9401" }} /><span>, All Right Reserved © {date.getFullYear()}</span>
       </Typography>
     </Box>
   );

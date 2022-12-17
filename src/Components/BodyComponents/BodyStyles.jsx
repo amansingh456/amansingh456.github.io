@@ -8,7 +8,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   sectionDark: {
     backgroundColor: Theme.colors.primary1,
-    padding: theme.spacing(10, 0, 8, 0),
+    padding: theme.spacing(5, 0, 8, 0),
   },
 
   //common

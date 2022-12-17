@@ -139,7 +139,7 @@ code {
 }
 
 #movie{
-  box-shadow: rgba(87, 88, 128, 0.9) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(238, 202, 132, 0.9) 1.95px 1.95px 2.6px;
 }
 
 #drug{
@@ -173,7 +173,7 @@ code {
   background-color: #2e2d2e;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #e2a308;
+  background-color: #fe9401;
   border-radius: 1rem;
   border: 0.5rem solid transparent;
   background-clip: content-box;

@@ -32,7 +32,7 @@ export default function Contact() {
                 smallText: " Contact Me",
                 heading: "",
                 description:
-                  "Got my Portfolio seen , than feel free to contact me for your future projects",
+                  "Got my Portfolio seen , than feel free to connect me.",
               })}
               <br />
               <Box style={{color:"#ffffff", marginLeft:"8px", marginBottom:"5px"}}>

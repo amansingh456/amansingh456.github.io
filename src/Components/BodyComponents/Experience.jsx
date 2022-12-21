@@ -95,7 +95,7 @@ const Experience = () => {
                 <p style={{ color: "#ffffff" }}>Cypress</p>
               </Box>
               <Box className="techStacks npm" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                <img src={npm} alt="npm" style={{ paddingTop: "20px" }} />
+                <img src={npm} alt="npm" style={{ paddingTop: "50px" }} />
                 <p style={{ color: "#ffffff" }}>NPM</p>
               </Box>
               <Box className="techStacks git" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>

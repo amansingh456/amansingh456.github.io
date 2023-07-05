@@ -1,0 +1,92 @@
+
+.homeWrapper{
+    height: 95vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #2e2d2e89, #34333499), url("./brandBanner.jpg");
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 199;
+}
+
+.typed{
+    color: #ffffff;
+    padding-top: 150px;
+    padding-left: 150px;
+    font-size: 50px;
+    font-family: "Poppins";
+}
+
+.typedDesc{
+    color: #ffffff;
+    /* display: flex; */
+    padding-top: 30px;
+    padding-left: 150px;
+    font-size: 32px;
+    font-family: "Poppins";
+}
+
+.resumeButton{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.resumeButton>a{
+    outline: none;
+    border: none;
+    font-size: 24px;
+    color: #ffffff;
+    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.resumeButton>a:hover{
+    color: #fe9401;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    cursor: pointer;
+}
+
+
+
+
+@media all and (min-width:300px) and (max-width:819px){
+    .typed{
+        padding-left: 50px;
+        padding-top: 200px;
+    }
+    .typedDesc{
+        padding-left: 50px;
+    }
+    .resumeButton{
+        padding-left: 50px;
+    }
+}
+
+@media all and (min-width:300px) and (max-width:680px){
+    .typed{
+        padding-left: 80px;
+        font-size: 30px;
+        padding-top: 200px;
+    }
+    .typedDesc{
+        padding-left: 80px;
+        font-size: 20px;
+    }
+    .resumeButton{
+        padding-left: 80px;
+        font-size: 20px;
+    }
+}
+@media all and (min-width:300px) and (max-width:400px){
+    .typed{
+        padding-left: 20px;
+    }
+    .typedDesc{
+        padding-left: 20px;
+    }
+    .resumeButton{
+        padding-left: 20px;
+    }
+}
+

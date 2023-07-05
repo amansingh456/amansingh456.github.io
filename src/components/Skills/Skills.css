@@ -1,0 +1,175 @@
+.skillsWrapper{
+    width: 100%;
+    background-color: #343334;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolsWrapper{
+    width: 100%;
+    background-color: #343334;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillsWrapper>p{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poppins";
+    display: inline;
+    color: #ffffff;
+    margin-bottom: 50px;
+    border-bottom: 4px solid #fe9401;
+}
+
+.toolsWrapper>p{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poppins";
+    display: inline;
+    color: #ffffff;
+    margin-bottom: 50px;
+    border-bottom: 4px solid #fe9401;
+}
+
+
+
+.techStacksBox{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 30px;
+  }
+  
+  
+  
+  
+  .techStacks{
+    border-radius: 10px;
+  }
+  
+  .techStacks>img{
+    width: 65px;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .techStacks .RENDER{
+    width: 120px;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+  }
+
+  .techStacks>img:hover{
+    transform: scale(1.1);
+  }
+  
+  
+  #upx{
+    transition: all .8s ease-in-out;
+  }
+  #upx:hover{
+    transform: scale(1.1);
+  }
+
+  
+  .html{
+    box-shadow: rgb(227, 77, 38) 0px 3px 8px;
+  }
+  .css{
+    box-shadow: rgb(2, 119, 188) 0px 3px 8px;
+  }
+  .js{
+    box-shadow: rgb(254, 213, 0) 0px 3px 8px;
+  }
+  .ts{
+    box-shadow: rgb(0, 122, 203) 0px 3px 8px;
+  }
+  .react{
+    box-shadow: rgb(0, 215, 254) 0px 3px 8px;
+  }
+  .redux{
+    box-shadow: rgb(118, 74, 187) 0px 3px 8px;
+  }
+  .mui{
+    box-shadow: rgb(41, 181, 245) 0px 3px 8px;
+  }
+  .chakra{
+    box-shadow: rgb(77, 181, 171) 0px 3px 8px;
+  }
+  .mongo{
+    box-shadow: rgb(73, 156, 74) 0px 3px 8px;
+  }
+  .mongoose{
+    box-shadow: rgb(183, 28, 28) 0px 3px 8px;
+  }
+  .mysql{
+    box-shadow: rgb(245, 127, 23) 0px 3px 8px;
+  }
+  .prisma{
+    box-shadow: rgb(22, 163, 148) 0px 3px 8px;
+  }
+  .node{
+    box-shadow: rgb(139, 199, 75) 0px 3px 8px;
+  }
+  .ex{
+    box-shadow: rgb(129, 129, 129) 0px 3px 8px;
+  }
+  .cy{
+    box-shadow: rgb(0, 156, 185) 0px 3px 8px;
+  }
+  .npm{
+    box-shadow: rgb(192, 33, 39) 0px 3px 8px;
+  }
+  .git{
+    box-shadow: rgb(255, 255, 255) 0px 3px 8px;
+  }
+  .notion{
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+  }
+  .vs{
+    box-shadow: rgb(31, 155, 239) 0px 3px 8px;
+  }
+  .pm{
+    box-shadow: rgb(243, 105, 51) 0px 3px 8px;
+  }
+  .atlas{
+    box-shadow: rgb(73, 156, 74) 0px 3px 8px;
+  }
+  .wb{
+    box-shadow: rgb(53, 125, 185) 0px 3px 8px;
+  }
+  .render{
+    box-shadow: rgb(68, 228, 184) 0px 3px 8px;
+  }
+  .vercel{
+    box-shadow: rgb(225, 225, 225) 0px 3px 8px;
+  }
+  .netlify{
+    box-shadow: rgb(69, 181, 188) 0px 3px 8px;
+  }
+
+
+
+
+
+  @media screen and (min-width:300px) and (max-width:630px){
+    .techStacksBox{
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
+  
+  @media screen and (min-width:300px) and (max-width:400px){
+    .techStacks>img{
+      width: 60px;
+    }
+    
+  }

@@ -1,0 +1,113 @@
+.aboutWrapper{
+    width: 100%;
+    background-color: #343334;
+}
+
+.aboutBox{
+    width: 90%;
+    margin: auto;
+    background-color: #343334;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* border: 1px solid orangered; */
+}
+
+.aboutBox>.aboutLeft{
+    width: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutLeft>img{
+    border-radius: 50%;
+    width: 90%;
+}
+
+.aboutBox>.aboutRight{
+    /* border: 1px solid blue; */
+    width: 55%;
+    display: flex;
+    align-items: center;
+
+}
+
+.about{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: inline;
+    font-family: "Poppins";
+    border-bottom: 4px solid #fe9401;
+}
+
+.name{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Poppins";
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.aboutdesc{
+    margin-left: 20px;
+    font-family: "Poppins";
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+
+
+
+@media all and (min-width:450px) and (max-width:819px){
+   .aboutBox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+
+   .aboutBox>.aboutLeft{
+    width: 60%;
+    margin-left: 20px;
+   }
+
+   .aboutBox>.aboutRight{
+    width: 85%;
+   }
+   .aboutLeft>img{
+    width: 100%;
+   }
+}
+
+
+@media all and (min-width:30px) and (max-width:449px){
+    .aboutBox{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+ 
+    .aboutBox>.aboutLeft{
+     width: 60%;
+     margin-bottom: 20px;
+    }
+ 
+    .aboutBox>.aboutRight{
+     width: 95%;
+    }
+    .aboutLeft>img{
+     width: 100%;
+    }
+
+    .about{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 24px;
+    }
+ }
+ 

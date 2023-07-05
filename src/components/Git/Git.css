@@ -1,0 +1,40 @@
+.gitCalender{
+    width: 100%;
+    background-color: #2e2d2e;
+    display: flex;
+    padding:  50px 0;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.gitCalender>.calenders{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Poppins";
+    border-bottom: 4px solid #fe9401;
+    margin-bottom: 50px;
+}
+
+
+.gitCalender>.stats{
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Poppins";
+  border-bottom: 4px solid #fe9401;
+  margin-top: 50px;
+}
+
+@media screen and (min-width:300px) and (max-width:560px){
+    .gitStats{
+      width: 90%;
+    }
+  }
+
+@media screen and (min-width:300px) and (max-width:760px){
+    .callu{
+      width: 90% !important;
+    }
+  }
+  

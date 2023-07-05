@@ -1,0 +1,102 @@
+.contactWrapper{
+    width: 100%;
+    background-color: #343334;
+    padding:  50px 0;
+}
+
+.contactBox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactLeft{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.contactLeft>img{
+    width: 100%;
+    
+}
+
+.contactRight{
+    width: 48%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.contactRight>p{
+    color: #ffffff;
+    font-size: 24px;
+    display: inline;
+    font-family: "Poppins";
+    border-bottom: 4px solid #fe9401;
+   
+}
+
+.contactRight>span{
+    color: #ffffff;
+    font-size: 18px;
+    font-family:"Poppins";
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.num, .email{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* padding: 40px; */
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:900px){
+
+    .contactBox{
+        width: 80%;
+        flex-direction: column-reverse;
+        margin: auto;
+        align-items: center;
+    }
+    .contactLeft{
+        width: 80%;
+    }
+    .contactRight{
+        width: 80%;
+        margin-top: 00px;
+    }
+    
+  }
+  @media screen and (min-width:300px) and (max-width:599px){
+
+    .contactBox{
+        width: 95%;
+        flex-direction: column-reverse;
+        margin: auto;
+        align-items: center;
+    }
+    .contactLeft{
+        width: 90%;
+    }
+    .contactRight{
+        width: 90%;
+        margin-top: 00px;
+    }
+    
+  }
+  

@@ -1,0 +1,12 @@
+.footerWraaper{
+    width: 100%;
+    position: relative;
+    background-color: #2e2d2e;
+}
+
+
+.footerWraaper>p{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}

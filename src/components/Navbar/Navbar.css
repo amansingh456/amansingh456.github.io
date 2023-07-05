@@ -1,0 +1,89 @@
+.navbarWrapper{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e2d2e;
+    color: #ffffff; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 40px ;
+    font-family: 'Parisienne', cursive;
+}
+
+.navLeft{
+    /* border: 1px solid blue; */
+    margin-left: 30px;
+}
+
+.navRight{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin-right: 30px;
+}
+
+.navLeftLink{
+    text-decoration: none !important;
+}
+
+.navRight>a{
+    text-decoration: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.navRight>a:hover{
+    cursor: pointer;
+    color: #fe9401;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.navRight>a:active, a:link, a:visited,a:hover{
+    color: #ffffff;
+}
+
+
+.navRightSmall{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navRightSmall .MenuItem{
+    background-color: #2e2d2e;
+    font-family: "Poppins";
+    color: #ffffff;
+}
+
+.navRightSmall .MenuItem:hover{
+    color: #fe9401 !important;
+}
+
+.navRightSmall .MenuButton{
+    font-size: 22px;
+}
+.navRightSmall .MenuButton:hover{
+    background-color: #2e2d2e;
+}
+
+
+
+@media all and (min-width:300px) and (max-width:800px){
+    .navRight{
+        display: none;
+    }
+}
+
+@media all and (min-width:801px) and (max-width:1500px){
+    .navRightSmall{
+        display: none;
+    }
+}
+

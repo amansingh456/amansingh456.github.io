@@ -26,7 +26,7 @@ const Contact = () => {
                                 +91 7477215550
                             </Box>
                             <Box className="email">
-                                amansinghrajawat690@gmail.com
+                                amansinghrajawat750@gmail.com
                             </Box>
                             <Box className="icons">
                                 <a href="https://www.linkedin.com/in/aman690/" target="_blank" rel="noreferrer">

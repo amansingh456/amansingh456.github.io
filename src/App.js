@@ -18,6 +18,7 @@ function App() {
       <Git/>
       <Contact/>
       <Footer/>
+      {/* all set */}
     </div>
   );
 }

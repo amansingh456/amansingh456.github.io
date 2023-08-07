@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.e42d847e.css",
-    "main.js": "/static/js/main.3f5c4e99.js",
+    "main.js": "/static/js/main.6a184cde.js",
     "static/media/Aman-Singh-Rajawat-Resume.pdf": "/static/media/Aman-Singh-Rajawat-Resume.659097a9e52a87188213.pdf",
     "static/media/movie-app.jpg": "/static/media/movie-app.29ccd69a50a35bb4ecb3.jpg",
     "static/media/fraudy.jpg": "/static/media/fraudy.b12f93fd0d302091961b.jpg",
     "static/media/About.jpg": "/static/media/About.693795b0e35b374803a8.jpg",
-    "static/media/Restaurent Template.jpg": "/static/media/Restaurent Template.6d5c40669ad11b2e7654.jpg",
+    "static/media/blisStay.jpg": "/static/media/blisStay.3756c1c588a208044875.jpg",
     "static/media/dot&key-clone.jpg": "/static/media/dot&key-clone.b53e468aaf6bf239e843.jpg",
     "static/media/spiritsvilla.jpg": "/static/media/spiritsvilla.b0f959aea43ce237abb7.jpg",
     "static/media/workbench.png": "/static/media/workbench.224c9ccc60ac335dbaac.png",
@@ -26,10 +26,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.e42d847e.css.map": "/static/css/main.e42d847e.css.map",
-    "main.3f5c4e99.js.map": "/static/js/main.3f5c4e99.js.map"
+    "main.6a184cde.js.map": "/static/js/main.6a184cde.js.map"
   },
   "entrypoints": [
     "static/css/main.e42d847e.css",
-    "static/js/main.3f5c4e99.js"
+    "static/js/main.6a184cde.js"
   ]
 }

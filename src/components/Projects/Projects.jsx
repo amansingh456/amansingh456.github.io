@@ -4,7 +4,7 @@ import img2 from "./projectImg/spiritsvilla.jpg";
 import img3 from "./projectImg/Music App.jpg";
 import img4 from "./projectImg/fraudy.jpg";
 import img5 from "./projectImg/dot&key-clone.jpg";
-import img6 from "./projectImg/Restaurent Template.jpg";
+import img6 from "./projectImg/blisStay.jpg";
 import { TbBrandJavascript } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -23,6 +23,178 @@ const Projects = () => {
     <div className="projectWrapper" id="project">
       <p>Projects</p>
       <div className="projects">
+        <div className="project6" style={{ color: "#ffffff" }}>
+          <img src={img6} alt="img1" />
+          <div>
+            <p
+              style={{
+                color: "#ffffff",
+                fontSize: "30px",
+                margin: "10px 0 10px 0",
+                fontFamily: "Poppins",
+                textAlign: "center",
+                textDecoration: "underline",
+                textUnderlineOffset: "4px",
+              }}
+            >
+              BlisStay
+            </p>
+            <p
+              style={{
+                color: "#ffffff",
+                padding: "0 20px 0 20px",
+                fontFamily: "Poppins",
+                marginBottom: "10px",
+              }}
+            >
+              A Website where user can book premium Hotels and Rooms and also Post our Hotels to website and being Admin.
+            </p>
+            <div className="techStack" style={{ padding: "0 20px 0 20px" }}>
+              <p style={{ fontFamily: "Poppins", color: "#ffffff" }}>
+                Tech Stacks Used &nbsp;:&nbsp;&nbsp;{" "}
+              </p>
+              <SiMongodb
+                style={{ fontSize: "22px", color: "#fe9401" }}
+              />
+              |&nbsp;
+              <SiExpress style={{ fontSize: "22px", color: "#fe9401" }} />
+              &nbsp;|&nbsp;
+              <IoLogoNodejs style={{ fontSize: "22px", color: "#fe9401" }} />
+              &nbsp;|&nbsp;
+              <FaReact style={{ fontSize: "20px", color: "#fe9401" }} />
+              &nbsp;|&nbsp;
+              <SiRedux style={{ fontSize: "20px", color: "#fe9401" }} />
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              padding: "0 20px 0 20px",
+              marginTop: "25px",
+            }}
+          >
+            <a
+              href="https://bookingappfrontend-iota.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ outline: "none", textDecoration: "none" }}
+            >
+              <button
+                style={{
+                  backgroundColor: "#fe9401",
+                  color: "#ffffff",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                }}
+              >
+                <MdLanguage style={{ fontSize: "20px" }} />
+              </button>
+            </a>{" "}
+            <a
+              href="https://github.com/amansingh456/bookingWebAppFrontend"
+              target="_blank"
+              rel="noreferrer"
+              style={{ outline: "none", textDecoration: "none" }} >
+              <button
+                style={{
+                  backgroundColor: "#fe9401",
+                  color: "#ffffff",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                }}
+              >
+                <AiFillGithub style={{ fontSize: "20px" }} />
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="project2" style={{ color: "#ffffff" }}>
+          <img src={img2} alt="img1" />
+          <div>
+            <p
+              style={{
+                color: "#ffffff",
+                fontSize: "30px",
+                margin: "10px 0 10px 0",
+                fontFamily: "Poppins",
+                textAlign: "center",
+                textDecoration: "underline",
+                textUnderlineOffset: "4px",
+              }}
+            >
+              Sprits-Villa
+            </p>
+            <p
+              style={{
+                color: "#ffffff",
+                padding: "0 20px 0 20px",
+                fontFamily: "Poppins",
+                marginBottom: "10px",
+              }}
+            >
+              Sprits Villa offer you the convenience of shopping for everything that you need for your home from a single virtual store.
+            </p>
+            <div className="techStack" style={{ padding: "0 20px 0 20px" }}>
+              <p style={{ fontFamily: "Poppins", color: "#ffffff" }}>
+                Tech Stacks Used &nbsp;:&nbsp;&nbsp;
+              </p>
+              <SiMongodb
+                style={{ fontSize: "22px", color: "#fe9401" }}
+              />
+              |&nbsp;
+              <SiExpress style={{ fontSize: "22px", color: "#fe9401" }} />
+              &nbsp;|&nbsp;
+              <IoLogoNodejs style={{ fontSize: "22px", color: "#fe9401" }} />
+              &nbsp;|&nbsp;
+              <FaReact style={{ fontSize: "20px", color: "#fe9401" }} />
+              &nbsp;|&nbsp;
+              <SiRedux style={{ fontSize: "20px", color: "#fe9401" }} />
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              padding: "0 20px 0 20px",
+              marginTop: "25px",
+            }}
+          >
+            <a
+              href="https://natural-volcano-6886-sy8i.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+              style={{ outline: "none", textDecoration: "none" }}
+            >
+              <button
+                style={{
+                  backgroundColor: "#fe9401",
+                  color: "#ffffff",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                }}
+              >
+                <MdLanguage style={{ fontSize: "20px" }} />
+              </button>
+            </a>{" "}
+            <a
+              href="https://github.com/amansingh456/spirits-villa"
+              target="_blank"
+              rel="noreferrer"
+              style={{ outline: "none", textDecoration: "none" }} >
+              <button
+                style={{
+                  backgroundColor: "#fe9401",
+                  color: "#ffffff",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                }}
+              >
+                <AiFillGithub style={{ fontSize: "20px" }} />
+              </button>
+            </a>
+          </div>
+        </div>
         <div className="project1" style={{ color: "#ffffff" }}>
           <img src={img1} alt="img1" />
           <div>
@@ -89,92 +261,6 @@ const Projects = () => {
             </a>
             <a
               href="https://github.com/amansingh456/Cozy-Movie-App"
-              target="_blank"
-              rel="noreferrer"
-              style={{ outline: "none", textDecoration: "none" }} >
-              <button
-                style={{
-                  backgroundColor: "#fe9401",
-                  color: "#ffffff",
-                  padding: "10px 20px",
-                  borderRadius: "10px",
-                }}
-              >
-                <AiFillGithub style={{ fontSize: "20px" }} />
-              </button>
-            </a>
-          </div>
-        </div>
-        <div className="project2" style={{ color: "#ffffff" }}>
-          <img src={img2} alt="img1" />
-          <div>
-            <p
-              style={{
-                color: "#ffffff",
-                fontSize: "30px",
-                margin: "10px 0 10px 0",
-                fontFamily: "Poppins",
-                textAlign: "center",
-                textDecoration: "underline",
-                textUnderlineOffset: "4px",
-              }}
-            >
-              Sprits-Villa
-            </p>
-            <p
-              style={{
-                color: "#ffffff",
-                padding: "0 20px 0 20px",
-                fontFamily: "Poppins",
-                marginBottom: "10px",
-              }}
-            >
-              Sprits Villa offer you the convenience of shopping for everything that you need for your home from a single virtual store.
-            </p>
-            <div className="techStack" style={{ padding: "0 20px 0 20px" }}>
-              <p style={{ fontFamily: "Poppins", color: "#ffffff" }}>
-                Tech Stacks Used &nbsp;:&nbsp;&nbsp;{" "}
-              </p>{" "}
-              <SiMongodb
-                style={{ fontSize: "22px", color: "#fe9401" }}
-              />{" "}
-              |&nbsp;{" "}
-              <SiExpress style={{ fontSize: "22px", color: "#fe9401" }} />{" "}
-              &nbsp;|&nbsp;{" "}
-              <IoLogoNodejs style={{ fontSize: "22px", color: "#fe9401" }} />{" "}
-              &nbsp;|&nbsp;{" "}
-              <FaReact style={{ fontSize: "20px", color: "#fe9401" }} />{" "}
-              &nbsp;|&nbsp;{" "}
-              <SiRedux style={{ fontSize: "20px", color: "#fe9401" }} />{" "}
-            </div>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              padding: "0 20px 0 20px",
-              marginTop: "25px",
-            }}
-          >
-            <a
-              href="https://natural-volcano-6886-sy8i.vercel.app"
-              target="_blank"
-              rel="noreferrer"
-              style={{ outline: "none", textDecoration: "none" }}
-            >
-              <button
-                style={{
-                  backgroundColor: "#fe9401",
-                  color: "#ffffff",
-                  padding: "10px 20px",
-                  borderRadius: "10px",
-                }}
-              >
-                <MdLanguage style={{ fontSize: "20px" }} />
-              </button>
-            </a>{" "}
-            <a
-              href="https://github.com/amansingh456/spirits-villa"
               target="_blank"
               rel="noreferrer"
               style={{ outline: "none", textDecoration: "none" }} >
@@ -287,7 +373,7 @@ const Projects = () => {
                 textUnderlineOffset: "4px",
               }}
             >
-             Fraudy
+              Fraudy
             </p>
             <p
               style={{
@@ -309,7 +395,7 @@ const Projects = () => {
               &nbsp;|&nbsp;{" "}
               <SiRedux style={{ fontSize: "20px", color: "#fe9401" }} />{" "}
               &nbsp;|&nbsp;{" "}
-              <SiFirebase  style={{ fontSize: "20px", color: "#fe9401" }} />{" "}
+              <SiFirebase style={{ fontSize: "20px", color: "#fe9401" }} />{" "}
               &nbsp;|&nbsp;{" "}
               <TbBrandJavascript style={{ fontSize: "22px", color: "#fe9401" }} />{" "}
               &nbsp;|&nbsp;{" "}
@@ -441,88 +527,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="project6" style={{ color: "#ffffff" }}>
-          <img src={img6} alt="img1" />
-          <div>
-            <p
-              style={{
-                color: "#ffffff",
-                fontSize: "30px",
-                margin: "10px 0 10px 0",
-                fontFamily: "Poppins",
-                textAlign: "center",
-                textDecoration: "underline",
-                textUnderlineOffset: "4px",
-              }}
-            >
-              Restro Template
-            </p>
-            <p
-              style={{
-                color: "#ffffff",
-                padding: "0 20px 0 20px",
-                fontFamily: "Poppins",
-                marginBottom: "10px",
-              }}
-            >
-              A Template of a Restaurant website, where users can take a look at how the restaurant website looks, awesome UI with simply CSS
-            </p>
-            <div className="techStack" style={{ padding: "0 20px 0 20px" }}>
-              <p style={{ fontFamily: "Poppins", color: "#ffffff" }}>
-                Tech Stacks Used &nbsp;:&nbsp;&nbsp;{" "}
-              </p>{" "}
-              <TbBrandJavascript
-                style={{ fontSize: "25px", color: "#fe9401" }}
-              />{" "}
-              &nbsp;|&nbsp;{" "}
-              <DiCss3 style={{ fontSize: "25px", color: "#fe9401" }} />{" "}
-              &nbsp;|&nbsp;{" "}
-              <DiHtml5 style={{ fontSize: "25px", color: "#fe9401" }} />{" "}
-            </div>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              padding: "0 20px 0 20px",
-              marginTop: "25px",
-            }}
-          >
-            <a
-              href="https://resto-template.netlify.app"
-              target="_blank"
-              rel="noreferrer"
-              style={{ outline: "none", textDecoration: "none" }}
-            >
-              <button
-                style={{
-                  backgroundColor: "#fe9401",
-                  color: "#ffffff",
-                  padding: "10px 20px",
-                  borderRadius: "10px",
-                }}
-              >
-                <MdLanguage style={{ fontSize: "20px" }} />
-              </button>
-            </a>{" "}
-            <a
-              href="https://github.com/amansingh456/Restaurant-Template"
-              target="_blank"
-              rel="noreferrer"
-              style={{ outline: "none", textDecoration: "none" }} >
-              <button
-                style={{
-                  backgroundColor: "#fe9401",
-                  color: "#ffffff",
-                  padding: "10px 20px",
-                  borderRadius: "10px",
-                }}
-              >
-                <AiFillGithub style={{ fontSize: "20px" }} />
-              </button>
-            </a>
-          </div>
-        </div>
+
       </div>
     </div>
   );

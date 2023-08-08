@@ -493,7 +493,7 @@ const Projects = () => {
             }}
           >
             <a
-              href="https://dot-and-key-ecommerce.netlify.app"
+              href="https://dot-nd-key-ecommerce.netlify.app"
               target="_blank"
               rel="noreferrer"
               style={{ outline: "none", textDecoration: "none" }}

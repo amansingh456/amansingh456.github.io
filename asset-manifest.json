@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e42d847e.css",
-    "main.js": "/static/js/main.6a184cde.js",
+    "main.js": "/static/js/main.d39c1593.js",
     "static/media/Aman-Singh-Rajawat-Resume.pdf": "/static/media/Aman-Singh-Rajawat-Resume.659097a9e52a87188213.pdf",
     "static/media/movie-app.jpg": "/static/media/movie-app.29ccd69a50a35bb4ecb3.jpg",
     "static/media/fraudy.jpg": "/static/media/fraudy.b12f93fd0d302091961b.jpg",
@@ -26,10 +26,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.e42d847e.css.map": "/static/css/main.e42d847e.css.map",
-    "main.6a184cde.js.map": "/static/js/main.6a184cde.js.map"
+    "main.d39c1593.js.map": "/static/js/main.d39c1593.js.map"
   },
   "entrypoints": [
     "static/css/main.e42d847e.css",
-    "static/js/main.6a184cde.js"
+    "static/js/main.d39c1593.js"
   ]
 }

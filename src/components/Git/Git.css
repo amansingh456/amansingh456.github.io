@@ -8,6 +8,13 @@
     
 }
 
+.gitCalender>.callu{
+  border: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
 .gitCalender>.calenders{
     color: #ffffff;

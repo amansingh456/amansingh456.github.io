@@ -4,7 +4,7 @@ import img2 from "./projectImg/spiritsvilla.jpg";
 import img3 from "./projectImg/Music App.jpg";
 import img4 from "./projectImg/fraudy.jpg";
 import img5 from "./projectImg/dot&key-clone.jpg";
-import img6 from "./projectImg/blisStay.jpg";
+import img6 from "./projectImg/airBnbLike.jpg";
 import { TbBrandJavascript } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -37,7 +37,7 @@ const Projects = () => {
                 textUnderlineOffset: "4px",
               }}
             >
-              BlisStay
+              AirBnbLike
             </p>
             <p
               style={{
@@ -75,7 +75,7 @@ const Projects = () => {
             }}
           >
             <a
-              href="https://bookingappfrontend-iota.vercel.app/"
+              href="https://deployment-of-air-bnb.vercel.app/"
               target="_blank"
               rel="noreferrer"
               style={{ outline: "none", textDecoration: "none" }}
@@ -92,7 +92,89 @@ const Projects = () => {
               </button>
             </a>{" "}
             <a
-              href="https://github.com/amansingh456/bookingWebAppFrontend"
+              href="https://github.com/amansingh456/airbnbLike"
+              target="_blank"
+              rel="noreferrer"
+              style={{ outline: "none", textDecoration: "none" }} >
+              <button
+                style={{
+                  backgroundColor: "#fe9401",
+                  color: "#ffffff",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                }}
+              >
+                <AiFillGithub style={{ fontSize: "20px" }} />
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="project1" style={{ color: "#ffffff" }}>
+          <img src={img1} alt="img1" />
+          <div>
+            <p
+              style={{
+                color: "#ffffff",
+                fontSize: "30px",
+                margin: "10px 0 10px 0",
+                fontFamily: "Poppins",
+                textAlign: "center",
+                textDecoration: "underline",
+                textUnderlineOffset: "4px",
+              }}
+            >
+              Cozy Movie App
+            </p>
+            <p
+              style={{
+                color: "#ffffff",
+                padding: "0 20px 0 20px",
+                fontFamily: "Poppins",
+                marginBottom: "10px",
+              }}
+            >
+              Simple Movie Website, users can feel a good touch about Searching data from API, Sorting, Filtering types of functionalities
+            </p>
+            <div className="techStack" style={{ padding: "0 20px 0 20px" }}>
+              <p style={{ fontFamily: "Poppins", color: "#ffffff" }}>
+                Tech Stacks Used &nbsp;:&nbsp;&nbsp;{" "}
+              </p>{" "}
+              <TbBrandJavascript
+                style={{ fontSize: "22px", color: "#fe9401" }}
+              />{" "}
+              &nbsp;|&nbsp;{" "}
+              <DiCss3 style={{ fontSize: "22px", color: "#fe9401" }} />{" "}
+              &nbsp;|&nbsp;{" "}
+              <DiHtml5 style={{ fontSize: "22px", color: "#fe9401" }} />{" "}
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              padding: "0 20px 0 20px",
+              marginTop: "25px",
+            }}
+          >
+            <a
+              href="https://cozy-movie-app.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+              style={{ outline: "none", textDecoration: "none" }}
+            >
+              <button
+                style={{
+                  backgroundColor: "#fe9401",
+                  color: "#ffffff",
+                  padding: "10px 20px",
+                  borderRadius: "10px",
+                }}
+              >
+                <MdLanguage style={{ fontSize: "20px" }} />
+              </button>
+            </a>
+            <a
+              href="https://github.com/amansingh456/Cozy-Movie-App"
               target="_blank"
               rel="noreferrer"
               style={{ outline: "none", textDecoration: "none" }} >
@@ -179,88 +261,6 @@ const Projects = () => {
             </a>{" "}
             <a
               href="https://github.com/amansingh456/spirits-villa"
-              target="_blank"
-              rel="noreferrer"
-              style={{ outline: "none", textDecoration: "none" }} >
-              <button
-                style={{
-                  backgroundColor: "#fe9401",
-                  color: "#ffffff",
-                  padding: "10px 20px",
-                  borderRadius: "10px",
-                }}
-              >
-                <AiFillGithub style={{ fontSize: "20px" }} />
-              </button>
-            </a>
-          </div>
-        </div>
-        <div className="project1" style={{ color: "#ffffff" }}>
-          <img src={img1} alt="img1" />
-          <div>
-            <p
-              style={{
-                color: "#ffffff",
-                fontSize: "30px",
-                margin: "10px 0 10px 0",
-                fontFamily: "Poppins",
-                textAlign: "center",
-                textDecoration: "underline",
-                textUnderlineOffset: "4px",
-              }}
-            >
-              Cozy Movie App
-            </p>
-            <p
-              style={{
-                color: "#ffffff",
-                padding: "0 20px 0 20px",
-                fontFamily: "Poppins",
-                marginBottom: "10px",
-              }}
-            >
-              Simple Movie Website, users can feel a good touch about Searching data from API, Sorting, Filtering types of functionalities
-            </p>
-            <div className="techStack" style={{ padding: "0 20px 0 20px" }}>
-              <p style={{ fontFamily: "Poppins", color: "#ffffff" }}>
-                Tech Stacks Used &nbsp;:&nbsp;&nbsp;{" "}
-              </p>{" "}
-              <TbBrandJavascript
-                style={{ fontSize: "22px", color: "#fe9401" }}
-              />{" "}
-              &nbsp;|&nbsp;{" "}
-              <DiCss3 style={{ fontSize: "22px", color: "#fe9401" }} />{" "}
-              &nbsp;|&nbsp;{" "}
-              <DiHtml5 style={{ fontSize: "22px", color: "#fe9401" }} />{" "}
-            </div>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              padding: "0 20px 0 20px",
-              marginTop: "25px",
-            }}
-          >
-            <a
-              href="https://cozy-movie-app.netlify.app"
-              target="_blank"
-              rel="noreferrer"
-              style={{ outline: "none", textDecoration: "none" }}
-            >
-              <button
-                style={{
-                  backgroundColor: "#fe9401",
-                  color: "#ffffff",
-                  padding: "10px 20px",
-                  borderRadius: "10px",
-                }}
-              >
-                <MdLanguage style={{ fontSize: "20px" }} />
-              </button>
-            </a>
-            <a
-              href="https://github.com/amansingh456/Cozy-Movie-App"
               target="_blank"
               rel="noreferrer"
               style={{ outline: "none", textDecoration: "none" }} >

@@ -65,6 +65,12 @@
     margin-bottom: 10px;
     transition: all .3s ease-in-out;
   }
+  .techStacks .CYC{
+    width: 45px;
+    height: 85px;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+  }
 
   .techStacks>img:hover{
     transform: scale(1.1);
@@ -142,8 +148,8 @@
   .atlas{
     box-shadow: rgb(73, 156, 74) 0px 3px 8px;
   }
-  .wb{
-    box-shadow: rgb(53, 125, 185) 0px 3px 8px;
+  .cyc{
+    box-shadow: rgb(255, 255, 255) 0px 3px 8px;
   }
   .render{
     box-shadow: rgb(68, 228, 184) 0px 3px 8px;
@@ -163,6 +169,9 @@
     .techStacksBox{
       width: 80%;
       grid-template-columns: repeat(2, 1fr);
+    }
+    .techStacks .CYC{
+      width: 80px;
     }
     
   }

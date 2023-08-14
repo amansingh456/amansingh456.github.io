@@ -19,7 +19,7 @@ import pm from "./skillImg/postman.png"
 import mysql from "./skillImg/mysql.png"
 import tailwind from "./skillImg/tailwind.png"
 import prisma from "./skillImg/prisma.png"
-import wb from "./skillImg/workbench.png"
+import cyc from "./skillImg/cyclic-logo (2).png"
 import atlas from "./skillImg/atlasNew.png"
 import mongoose from "./skillImg/icons8-mongoose-480.png"
 import vercel from "./skillImg/vercel.png"
@@ -121,6 +121,10 @@ const Skill = () => {
               <img src={github} alt="git" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>Github</p>
             </Box>
+            <Box className="techStacks cyc"  id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src={cyc} className='CYC' alt="cyc" style={{ paddingTop: "20px" }} />
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Cyclic.sh</p>
+            </Box>
             <Box className="techStacks pm" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={pm} alt="git" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>Postman</p>
@@ -129,21 +133,17 @@ const Skill = () => {
               <img src={atlas} alt="git" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>Atlas</p>
             </Box>
-            {/* <Box className="techStacks wb" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <img src={wb} alt="wb" style={{ paddingTop: "20px" }} />
-              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Workbench</p>
-            </Box> */}
             <Box className="techStacks render" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={render} className='RENDER' alt="render" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>Render</p>
             </Box>
-            <Box className="techStacks vercel" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <img src={vercel} alt="vercel" style={{ paddingTop: "20px" }} />
-              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Vercel</p>
-            </Box>
             <Box className="techStacks netlify" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={netlify} alt="netlify" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>Netlify</p>
+            </Box>
+            <Box className="techStacks vercel" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src={vercel} alt="vercel" style={{ paddingTop: "20px" }} />
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Vercel</p>
             </Box>
             </Slide>
           </Box>

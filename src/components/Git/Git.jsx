@@ -7,6 +7,7 @@ import "./Git.css"
 const Git = () => {
     const explicitTheme = {
         dark: ['#383838', '#ffdba5', '#f3b963', '#fe9401', '#B36400']
+        // light: ['#B36400', '#fe9401', '#f3b963', '#ffdba5', '#383838']
       };
     return (
         <>

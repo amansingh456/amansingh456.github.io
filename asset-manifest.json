@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dba6913.css",
-    "main.js": "/static/js/main.8e2b00d7.js",
+    "main.css": "/static/css/main.ad8e5ef6.css",
+    "main.js": "/static/js/main.5ac4f367.js",
     "static/media/Aman-Singh-Rajawat-Resume.pdf": "/static/media/Aman-Singh-Rajawat-Resume.659097a9e52a87188213.pdf",
     "static/media/movie-app.jpg": "/static/media/movie-app.29ccd69a50a35bb4ecb3.jpg",
     "static/media/airBnbLike.jpg": "/static/media/airBnbLike.7d673a960d125eb76a68.jpg",
@@ -9,7 +9,6 @@
     "static/media/About.jpg": "/static/media/About.693795b0e35b374803a8.jpg",
     "static/media/dot&key-clone.jpg": "/static/media/dot&key-clone.b53e468aaf6bf239e843.jpg",
     "static/media/spiritsvilla.jpg": "/static/media/spiritsvilla.b0f959aea43ce237abb7.jpg",
-    "static/media/workbench.png": "/static/media/workbench.224c9ccc60ac335dbaac.png",
     "static/media/Music App.jpg": "/static/media/Music App.9eacb4d15e858fcbade5.jpg",
     "static/media/brandBanner.jpg": "/static/media/brandBanner.7e7b0aa25f17ae104a8b.jpg",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -25,11 +24,11 @@
     "static/media/atlasNew.png": "/static/media/atlasNew.2ea87a19f1f579597d89.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.7dba6913.css.map": "/static/css/main.7dba6913.css.map",
-    "main.8e2b00d7.js.map": "/static/js/main.8e2b00d7.js.map"
+    "main.ad8e5ef6.css.map": "/static/css/main.ad8e5ef6.css.map",
+    "main.5ac4f367.js.map": "/static/js/main.5ac4f367.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dba6913.css",
-    "static/js/main.8e2b00d7.js"
+    "static/css/main.ad8e5ef6.css",
+    "static/js/main.5ac4f367.js"
   ]
 }

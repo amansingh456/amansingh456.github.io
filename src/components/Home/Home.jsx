@@ -26,7 +26,7 @@ const Home = () => {
             Based On Your Needs...
         </p>
         <p className='resumeButton' style={{display:"inline-block"}} onClick={()=>{window.open("https://drive.google.com/file/d/137MhCg2X815aTp-SMZnNuXC8uBbxLcyk/view?usp=sharing", "_blank")}}>
-            <a href={pdf} download="fp06_252-Aman-Singh-Rajawat.pdf">
+            <a href={pdf} download="Aman-Singh-Rajawat.pdf">
                 Resume <span style={{paddingLeft:"3px", marginTop:"5px"}}><AiOutlineArrowDown/></span>
             </a>
         </p>

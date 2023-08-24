@@ -50,7 +50,7 @@ const Navbar = () => {
                 <Link to="contact" activeClass="active" smooth={true} offset={-70} duration={1000}>Contact</Link>
               </MenuItem>
               <MenuItem className='MenuItem' onClick={()=>{window.open("https://drive.google.com/file/d/137MhCg2X815aTp-SMZnNuXC8uBbxLcyk/view?usp=sharing", "_blank")}}>
-                <a href={pdf} download="fp06_252-Aman-Singh-Rajawat.pdf">Resume</a>
+                <a href={pdf} download="Aman-Singh-Rajawat.pdf">Resume</a>
               </MenuItem>
             </MenuList>
           </Menu>

@@ -3,6 +3,7 @@ import React from 'react'
 import html from "./skillImg/html.png";
 import css from "./skillImg/css.png";
 import javascript from "./skillImg/javascript.png";
+import next from "./skillImg/next.png"
 import reactImage from "./skillImg/react.png";
 import redux from "./skillImg/redux.png"
 import mui from "./skillImg/mui.png"
@@ -25,6 +26,9 @@ import mongoose from "./skillImg/icons8-mongoose-480.png"
 import vercel from "./skillImg/vercel.png"
 import render from "./skillImg/render.png"
 import netlify from "./skillImg/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-96.png"
+import wb from "./skillImg/workbench.png"
+import aws from "./skillImg/aws.png"
+import ng from "./skillImg/nginx.png"
 import Slide from 'react-reveal/Tada';
 import "./Skills.css"
 
@@ -54,7 +58,11 @@ const Skill = () => {
             </Box>
             <Box className="techStacks react" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={reactImage} alt="React" style={{ paddingTop: "20px" }} />
-              <p style={{ color: "#ffffff", marginBottom: "15px" }}>React</p>
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>React.js</p>
+            </Box>
+            <Box className="techStacks git" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src={next} alt="next" className='next' style={{ paddingTop: "20px" }} />
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Next.js</p>
             </Box>
             <Box className="techStacks redux" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={redux} alt="redux" style={{ paddingTop: "20px" }} />
@@ -81,18 +89,20 @@ const Skill = () => {
               <img src={node} alt="ndoe" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>Node</p>
             </Box>
-            <Box className="techStacks mongoose" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <img src={mongoose} alt="mongoose" style={{ paddingTop: "20px" }} />
-              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Mongoose</p>
+            <Box className="techStacks mysql" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src={mysql} alt="mysql" style={{ paddingTop: "20px" }} />
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>MySQL</p>
             </Box>
+            
             <Box className="techStacks mongo" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={mongo} alt="mongo" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>MongoDB</p>
             </Box>
-            {/* <Box className="techStacks mysql" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <img src={mysql} alt="mysql" style={{ paddingTop: "20px" }} />
-              <p style={{ color: "#ffffff", marginBottom: "15px" }}>MySQL</p>
-            </Box> */}
+            <Box className="techStacks mongoose" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src={mongoose} alt="mongoose" style={{ paddingTop: "20px" }} />
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Mongoose</p>
+            </Box>
+            
             {/* <Box className="techStacks prisma" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={prisma} alt="prisma" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>Prisma ORM</p>
@@ -109,6 +119,14 @@ const Skill = () => {
         
           <Box className='techStacksBox'>
           <Slide>
+            <Box className="techStacks aws" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src={aws} alt="aws" style={{ paddingTop: "20px" }} />
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Aws</p>
+            </Box>
+            <Box className="techStacks atlas" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src={ng} alt="ng" style={{ paddingTop: "20px" }} />
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Nginx</p>
+            </Box>
             <Box className="techStacks vs" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={vs} alt="vs" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>VS Code</p>
@@ -132,6 +150,10 @@ const Skill = () => {
             <Box className="techStacks atlas" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={atlas} alt="git" style={{ paddingTop: "20px" }} />
               <p style={{ color: "#ffffff", marginBottom: "15px" }}>Atlas</p>
+            </Box>
+            <Box className="techStacks wb" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src={wb} alt="wb" style={{ paddingTop: "20px" }} />
+              <p style={{ color: "#ffffff", marginBottom: "15px" }}>Workbench</p>
             </Box>
             <Box className="techStacks render" id="upx" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={render} className='RENDER' alt="render" style={{ paddingTop: "20px" }} />

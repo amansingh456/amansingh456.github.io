@@ -65,6 +65,15 @@
     margin-bottom: 10px;
     transition: all .3s ease-in-out;
   }
+  .techStacks .next{
+    width: 105px;
+    margin-bottom: 10px;
+    filter: drop-shadow(3px 3px 7px #fff);
+    /* box-shadow: 0px 0px 5px #fff; */
+    /* filter:progid:DXImageTransform.Microsoft.Glow(Color=white,Strength=5); */
+    transition: all .3s ease-in-out;
+    
+  }
   .techStacks .CYC{
     width: 45px;
     height: 85px;
@@ -159,6 +168,12 @@
   }
   .netlify{
     box-shadow: rgb(69, 181, 188) 0px 3px 8px;
+  }
+  .wb{
+    box-shadow: rgb(45, 100, 145) 0px 3px 8px;
+  }
+  .aws{
+    box-shadow: rgb(134, 60, 246) 0px 3px 8px;
   }
 
 

@@ -18,7 +18,6 @@ function App() {
       <Git/>
       <Contact/>
       <Footer/>
-      {/*so far so good */}
     </div>
   );
 }

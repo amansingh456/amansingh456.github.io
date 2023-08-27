@@ -14,7 +14,6 @@ function App() {
       <Home/>
       <About/>
       <Projects/>
-      {/* up to here all ok */}
       <Skill/>
       <Git/>
       <Contact/>

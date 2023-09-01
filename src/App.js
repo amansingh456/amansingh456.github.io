@@ -20,6 +20,7 @@ function App() {
       <Footer/>
       {/* want to add extra things */}
       {/* Although can do anything from here.. */}
+      hello bruh
     </div>
   );
 }

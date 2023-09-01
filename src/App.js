@@ -18,6 +18,7 @@ function App() {
       <Git/>
       <Contact/>
       <Footer/>
+      {/* want to add extra things */}
     </div>
   );
 }

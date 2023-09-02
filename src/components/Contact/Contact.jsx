@@ -35,7 +35,7 @@ const Contact = () => {
                                 <a href="https://github.com/amansingh456" target="_blank" rel="noreferrer">
                                     <AiFillGithub style={{ fontSize: "40px", marginRight: "30px", color: "#ffffff", backgroundColor: "#fe9401", padding: "5px", borderRadius: "20px" }} />
                                 </a>
-                                <a href="mailto:amansinghrajawat690@gmail.com" >
+                                <a href="mailto:amansinghrajawat750@gmail.com" >
 
                                     <MdMarkEmailUnread style={{ fontSize: "40px", marginRight: "30px", color: "#ffffff", backgroundColor: "#fe9401", padding: "5px", borderRadius: "20px" }} />
 

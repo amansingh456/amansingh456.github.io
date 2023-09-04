@@ -75,7 +75,7 @@ const Projects = () => {
             }}
           >
             <a
-              href="http://ec2-13-48-46-179.eu-north-1.compute.amazonaws.com:3000/"
+              href="https://blog-cuvette-frontend.vercel.app/"
               target="_blank"
               rel="noreferrer"
               style={{ outline: "none", textDecoration: "none" }}

@@ -42,7 +42,16 @@ const Exp = () => {
               <span
                 style={{ color: "#8892B0", fontWeight: 100, fontSize: "18px" }}
               >
-                &nbsp;Full Stack Developer
+                &nbsp;Full Stack Developer{" "}
+                <span
+                  style={{
+                    color: "#8892B0",
+                    fontWeight: 50,
+                    fontSize: "12px",
+                  }}
+                >
+                  (Oct-2023 to Present)
+                </span>
               </span>
             </a>
           </p>

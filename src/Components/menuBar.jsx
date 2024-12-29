@@ -109,13 +109,6 @@ export const Menubar = () => {
       </AnchorLink>
       <AnchorLink
         className="menu-item"
-        href="#projects"
-        onClick={() => setOpen(false)}
-      >
-        Projects
-      </AnchorLink>
-      <AnchorLink
-        className="menu-item"
         href="#contact"
         onClick={() => setOpen(false)}
       >

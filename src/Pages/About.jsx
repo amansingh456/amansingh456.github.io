@@ -16,22 +16,23 @@ export const About = () => {
         <div>
           <div>
             <p>
-              Hello 👋, My name is{" "}
-              <span style={{ color: "#5fe4c9" }}>Aman Singh Rajawat,</span> a
-              passionate creator shaping the digital realm. My journey into web
-              development ignited in 2021
+              Hello 👋, I am{" "}
+              <span style={{ color: "#5fe4c9" }}>Aman Singh Rajawat, </span>a
+              passionate full-stack developer with a focus on building seamless
+              digital experiences. Since starting my web development journey in
+              2021, I’ve worked on diverse projects, evolving into a versatile
+              developer skilled in both frontend and backend technologies.
             </p>
             <p id="user-detail-intro">
-              With over 10 months of hands-on experience, I've evolved into a
-              full-stack developer adept in an array of technologies. From
-              crafting seamless user experiences with HTML, CSS, and JavaScript,
-              TypeScript to architecting robust backends with Go & Node and
-              building dynamic interfaces with React & Next, I thrive on the
-              dynamic challenges of modern web development.
+              With over a year of experience, I specialize in crafting
+              user-friendly interfaces using Next.js and React to create
+              high-performance web applications with server-side rendering. On
+              the backend, I’ve developed robust systems with Go, Node.js, and
+              Express, ensuring scalability and efficiency.
             </p>
             <p id="user-detail-intro">
-              Let's collaborate to turn your digital dreams into reality. Reach
-              out, and let's build something remarkable together! 🚀
+              Let's work together to bring your digital ideas to life! Reach
+              out, and let’s create something exceptional. 🚀
             </p>
           </div>
         </div>

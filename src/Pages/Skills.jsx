@@ -55,23 +55,76 @@ export const Skills = () => {
       <div>
         <div ref={parallax.ref}>
           <div className={"skills-card"}>
-            <FaHtml5
-              color="#EA5626"
+            <SiGo
+              className="skills-card-img"
+              color="#71d6e5"
+              fontSize={"50px"}
+            />
+            <p style={{ color: "#71d6e5" }} className="skills-card-name">
+              Go Lang
+            </p>
+          </div>
+
+          <div className={"skills-card"}>
+            <SiNextdotjs
+              color="white"
               className="skills-card-img"
               fontSize={"50px"}
             />
-            <p style={{ color: "#EA5626" }} className="skills-card-name">
-              HTML
+            <p style={{ color: "white" }} className="skills-card-name">
+              NextJS
             </p>
           </div>
           <div className={"skills-card"}>
-            <SiCss3
-              color="#0376bf"
+            <FaReact
+              color="#5ED3F3"
               className="skills-card-img"
               fontSize={"50px"}
             />
-            <p style={{ color: "#0376bf" }} className="skills-card-name">
-              CSS
+            <p style={{ color: "#5ED3F3" }} className="skills-card-name">
+              React
+            </p>
+          </div>
+          <div className={"skills-card"}>
+            <SiRedux
+              color="#7248B6"
+              className="skills-card-img"
+              fontSize={"50px"}
+            />
+            <p style={{ color: "#7248B6" }} className="skills-card-name">
+              Redux
+            </p>
+          </div>
+          <div className={"skills-card"}>
+            <SiMongodb
+              color="green"
+              className="skills-card-img"
+              fontSize={"50px"}
+            />
+            <p style={{ color: "green" }} className="skills-card-name">
+              MongoDB
+            </p>
+          </div>
+        </div>
+        <div ref={parallax2.ref}>
+          <div className={"skills-card"}>
+            <SiExpress
+              color="blue"
+              className="skills-card-img"
+              fontSize={"50px"}
+            />
+            <p style={{ color: "blue" }} className="skills-card-name">
+              Express
+            </p>
+          </div>
+          <div className={"skills-card"}>
+            <SiNodedotjs
+              color="green"
+              className="skills-card-img"
+              fontSize={"50px"}
+            />
+            <p style={{ color: "green" }} className="skills-card-name">
+              NodeJS
             </p>
           </div>
           <div className={"skills-card"}>
@@ -95,48 +148,6 @@ export const Skills = () => {
             </p>
           </div>
           <div className={"skills-card"}>
-            <SiMaterialui
-              color="#2ab5f7"
-              className="skills-card-img"
-              fontSize={"50px"}
-            />
-            <p style={{ color: "#2ab5f7" }} className="skills-card-name">
-              MaterialUI
-            </p>
-          </div>
-        </div>
-        <div ref={parallax2.ref}>
-          <div className={"skills-card"}>
-            <FaReact
-              color="#5ED3F3"
-              className="skills-card-img"
-              fontSize={"50px"}
-            />
-            <p style={{ color: "#5ED3F3" }} className="skills-card-name">
-              React
-            </p>
-          </div>
-          <div className={"skills-card"}>
-            <SiRedux
-              color="#7248B6"
-              className="skills-card-img"
-              fontSize={"50px"}
-            />
-            <p style={{ color: "#7248B6" }} className="skills-card-name">
-              Redux
-            </p>
-          </div>
-          <div className={"skills-card"}>
-            <SiNextdotjs
-              color="white"
-              className="skills-card-img"
-              fontSize={"50px"}
-            />
-            <p style={{ color: "white" }} className="skills-card-name">
-              NextJS
-            </p>
-          </div>
-          <div className={"skills-card"}>
             <SiTailwindcss
               color="#00b8d7"
               className="skills-card-img"
@@ -144,6 +155,19 @@ export const Skills = () => {
             />
             <p style={{ color: "#00b8d7" }} className="skills-card-name">
               Tailwind
+            </p>
+          </div>
+        </div>
+
+        <div ref={ref}>
+          <div className={"skills-card"}>
+            <SiMaterialui
+              color="#2ab5f7"
+              className="skills-card-img"
+              fontSize={"50px"}
+            />
+            <p style={{ color: "#2ab5f7" }} className="skills-card-name">
+              MaterialUI
             </p>
           </div>
           <div className={"skills-card"}>
@@ -156,16 +180,24 @@ export const Skills = () => {
               ChakraUI
             </p>
           </div>
-        </div>
-        <div ref={ref}>
           <div className={"skills-card"}>
-            <SiGo
+            <SiCss3
+              color="#0376bf"
               className="skills-card-img"
-              color="#71d6e5"
               fontSize={"50px"}
             />
-            <p style={{ color: "#71d6e5" }} className="skills-card-name">
-              Go Lang
+            <p style={{ color: "#0376bf" }} className="skills-card-name">
+              CSS
+            </p>
+          </div>
+          <div className={"skills-card"}>
+            <FaHtml5
+              color="#EA5626"
+              className="skills-card-img"
+              fontSize={"50px"}
+            />
+            <p style={{ color: "#EA5626" }} className="skills-card-name">
+              HTML
             </p>
           </div>
           <div className={"skills-card"}>
@@ -176,36 +208,6 @@ export const Skills = () => {
             />
             <p style={{ color: "#f26935" }} className="skills-card-name">
               Postman
-            </p>
-          </div>
-          <div className={"skills-card"}>
-            <SiNodedotjs
-              color="green"
-              className="skills-card-img"
-              fontSize={"50px"}
-            />
-            <p style={{ color: "green" }} className="skills-card-name">
-              NodeJS
-            </p>
-          </div>
-          <div className={"skills-card"}>
-            <SiExpress
-              color="blue"
-              className="skills-card-img"
-              fontSize={"50px"}
-            />
-            <p style={{ color: "blue" }} className="skills-card-name">
-              Express
-            </p>
-          </div>
-          <div className={"skills-card"}>
-            <SiMongodb
-              color="green"
-              className="skills-card-img"
-              fontSize={"50px"}
-            />
-            <p style={{ color: "green" }} className="skills-card-name">
-              MongoDB
             </p>
           </div>
         </div>

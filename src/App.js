@@ -1,6 +1,5 @@
 import "./App.css";
 // color 5fe4c9
-import { Projects } from "./Pages/Projects";
 import { Navbar } from "./Components/Navbar";
 import { Home } from "./Pages/Home";
 import { About } from "./Pages/About";
@@ -34,7 +33,6 @@ function App() {
       <About />
       <Skills />
       <Exp />
-      <Projects />
       <GitHubStreak />
       <GitHubStats />
       <GitLanguages />

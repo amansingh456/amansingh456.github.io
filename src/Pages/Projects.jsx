@@ -3,8 +3,7 @@ import "../styles/Projects.css";
 import { TbExternalLink } from "react-icons/tb";
 import { HiFolder } from "react-icons/hi";
 import { FiGithub } from "react-icons/fi";
-import Blissy from "../Images/blissy.png";
-import blog from "../Images/blog.png";
+import Blissy from "../Images/newBlisy.png";
 import music from "../Images/Music-app.png";
 export const Projects = () => {
   return (
@@ -63,55 +62,7 @@ export const Projects = () => {
           </div>
         </div>
         {/* 2nd project */}
-        <div className="project-card">
-          <div>
-            <img src={blog} alt="Crux" />
-          </div>
-          <div>
-            <a
-              href="https://github.com/amansingh456/blogCuvette"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FiGithub
-                color="#5fe4c9"
-                fontSize={"35px"}
-                className={"project-github-link"}
-                fontWeight="light"
-                cursor={"pointer"}
-              />
-            </a>
-            <a
-              href="https://blog-cuvette-frontend.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <TbExternalLink
-                className={"project-deployed-link"}
-                fontSize={"30px"}
-              />
-            </a>
-          </div>
-          <div>
-            <div>
-              <h3 className="project-title">Blog App</h3>
-              <p className="project-description">
-                This is a Full Stack blog app where users authenticate to access
-                a range of features including blog creation, reading, liking,
-                and commenting. Discover the joy of seamless interaction and
-                content sharing within a vibrant online community
-              </p>
-            </div>
-            <div className="project-tech-stack">
-              <p>JavaScript</p>
-              <p>React</p>
-              <p>Redux</p>
-              <p>Node</p>
-              <p>Express</p>
-              <p>MySql</p>
-            </div>
-          </div>
-        </div>
+
         {/* 4th project */}
         <div className="project-card">
           <div>

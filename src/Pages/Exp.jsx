@@ -97,9 +97,9 @@ const Exp = () => {
             <span
               style={{ fontSize: "14px", fontWeight: 200, color: "#8892B0" }}
             >
-              Streamlined widget interface and rectified functionality flaws,
-              Leveraging Next.js, React, Redux, TypeScript, and JavaScript, I
-              streamlined the interface, prioritizing efficiency and usability
+              Redesigned the widget interface and resolved functionality issues
+              using Next.js, React, and TypeScript, ensuring efficiency and
+              usability.
             </span>
           </p>
           <p
@@ -120,8 +120,9 @@ const Exp = () => {
             <span
               style={{ fontSize: "14px", fontWeight: 200, color: "#8892B0" }}
             >
-              Initiated and executed internal dashboard development for enhanced
-              internal services management
+              Designed and developed both client and internal dashboards to
+              enhance user accessibility and streamline service management,
+              optimizing workflows and improving operational efficiency.
             </span>
           </p>
           <p
@@ -141,8 +142,9 @@ const Exp = () => {
               style={{ fontSize: "14px", fontWeight: 200, color: "#8892B0" }}
             >
               {" "}
-              Wrote payment services and implementing robust checks using Go
-              lang, ensuring secure transactions and data integrity.
+              Built secure payment services in Go, implementing robust
+              validation and integrating automation to ensure data integrity and
+              streamline processes.
             </span>
           </p>
         </div>

@@ -44,9 +44,6 @@ export const Navbar = () => {
             <AnchorLink href={"#exper"} className="nav-link projects">
               <li>Experience</li>
             </AnchorLink>
-            <AnchorLink href={"#projects"} className="nav-link projects">
-              <li>Projects</li>
-            </AnchorLink>
             <AnchorLink href={"#contact"} className="nav-link contact">
               <li>Contact</li>
             </AnchorLink>
